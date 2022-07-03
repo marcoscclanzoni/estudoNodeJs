@@ -1,0 +1,27 @@
+{
+  "name": "estudonodejs",
+  "version": "1.0.0",
+  "description": "Curso de NodeJs pela Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoscclanzoni/estudoNodeJs.git"
+  },
+  "keywords": [
+    "curso",
+    "nodejs",
+    "udemy"
+  ],
+  "author": "Marcos Lanzoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoscclanzoni/estudoNodeJs/issues"
+  },
+  "homepage": "https://github.com/marcoscclanzoni/estudoNodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
