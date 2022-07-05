@@ -1,9 +1,19 @@
-function soma(valor1, valor2) {
-  let resultado = valor1 * valor2;
-  console.log(resultado);
-}
+// variavel que escolhe a função
+// 1 tensao
+// 2 corrente
+// 3 resistencia
 
-soma(20, 30);
-soma(23, 30);
-soma(204, 30);
-soma(203, 30);
+let tipoCalculo = 3;
+
+// função 
+function tensao(cor, resis) {
+  let resultado = cor * resis;
+  return resultado;
+}
+// tipo de calculo pelo if
+  if (tipoCalculo == 1) {
+    console.log(tensao(20, 30));
+  } else {
+    console.log(tensao(240, 30));
+  }
+// estudar case
