@@ -1,3 +1,21 @@
+// chamando o express
+let express = require('express');
+let app = express();
+
+// criando uma rota
+
+app.get('/', function (req, res) {
+  res.send('Primeira rota Express');
+
+});
+
+// escutando a porta 3000
+
+app.listen(3000, function () {
+  console.log("A aplicação esta funcionando na porta 3000");
+})
+
+
 // variavel que escolhe a função
 // 1 tensao
 // 2 corrente
